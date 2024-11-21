@@ -105,7 +105,7 @@ def start_scan():
 
         # Continuously update the plot with new RSSI data
         while pyairview.is_scanning():
-            time.sleep(0.5)  # Delay between scan updates
+            time.sleep(2.5)  # Delay between scan updates
 
         # Stop scanning after a certain period or when finished
         pyairview.stop_scan()
